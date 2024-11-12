@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="digi_project3.exe" version="1.0.0.1" publicKeyToken="be0da512e0c40fb6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="digi_project3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="digi_project3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="digi_project3.exe" size="52152">
+      <assemblyIdentity name="digi_project3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PuNPMbEMFegn8arOIbdM2NvhN6e4NTyHaQDYFwH745s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database1.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ABikDMKZBF22vqoRg0U60A8pKL2csKYUiKfd99eJlxw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IfzC1daAAYXWo5RrZ775e2es7CLpmD172pIl0m2kX7A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="digi_project3.exe.config" size="556">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5oWUeimyUeaPwI361ZKFelK4FTCZjAPaR4gNc8YgdJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ADAM_LEN\abera" issuerKeyHash="723f49bc4a7cf693b8300c34238404c943bb3316" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>EtjKx+EhtFSzcpRI6uBmiIMWIrWmWigjb4fJIp8n9nE=</DigestValue></Reference></SignedInfo><SignatureValue>sRwRPOhF0fPDe+Gb2jiNnDQn77tMw8w7upqfVImtw7G1S9NDrmUClyAzS2WMgRg3zBRECLtFofYE9lmYH2pPKgjuw5STaDXauglPNRX8bmZDH2f7i5/HlM9IykRJ4mTD4DzgBhYWatz/U0JuHMBG2YLkov01wAiW1l3Ky+nC7rg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5TDhz7e/2+9iipT/SORdhBxTfuTAyxyWjyVNlJeH6FOueH0xsNm4HmYokiyugSp0iKrLUpryIiuE4SUuf9/XU927Ncw7U3M5MuveXI4hC5Fl8Uwl5dCbxeBey+4iq5ZeDDTJgnUXCnlNKK2WdoBNgAHHHC3mCr0//wOcIhOYee0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="71f6279f22c9876f23285aa6b52216838866e0ea489472b354b421e1c7cad812" Description="" Url=""><as:assemblyIdentity name="digi_project3.exe" version="1.0.0.1" publicKeyToken="be0da512e0c40fb6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ADAM_LEN\abera</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>JWJzB0LRRxb0VnAbEa4Uq0EcOlld7aarQhoPXquqfs0=</DigestValue></Reference></SignedInfo><SignatureValue>q2sN5FVhx6SMGfnycpe/oxFXQWn3TKG4gYdEARO5viP4E4wT0Or7H/rWehN7uVuUMsNbFEnv3h6x3whOBdW7pCkXDVsU+4bsC/eyawuUy8l6d/tNEONT4lDzd1aKe6kWwSrePld5KVxJXTilF8yX5w7r2gRpnBiBdu8sT8UYVcY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5TDhz7e/2+9iipT/SORdhBxTfuTAyxyWjyVNlJeH6FOueH0xsNm4HmYokiyugSp0iKrLUpryIiuE4SUuf9/XU927Ncw7U3M5MuveXI4hC5Fl8Uwl5dCbxeBey+4iq5ZeDDTJgnUXCnlNKK2WdoBNgAHHHC3mCr0//wOcIhOYee0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQKRuGsHxa9IdAg+TWptClWjANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBEAEEATQBfAEwARQBOAFwAYQBiAGUAcgBhMB4XDTI0MTExMTE1MDk0NVoXDTI1MTExMTIxMDk0NVowJzElMCMGA1UEAx4cAEEARABBAE0AXwBMAEUATgBcAGEAYgBlAHIAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA5TDhz7e/2+9iipT/SORdhBxTfuTAyxyWjyVNlJeH6FOueH0xsNm4HmYokiyugSp0iKrLUpryIiuE4SUuf9/XU927Ncw7U3M5MuveXI4hC5Fl8Uwl5dCbxeBey+4iq5ZeDDTJgnUXCnlNKK2WdoBNgAHHHC3mCr0//wOcIhOYee0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAUGLLu/VHMnoceRv7kBccwLLXujlRUosSDLbtqLDkC8OsQXH9mO6Ycbu+9EjrBYSk0miBtrw23HlzCUO9RywQJ0xFZzBll0Ois4uJDgbTVFhNrfbzNnRH7Oi9/hfUKO0QsiC+ipt6Fkdr8BRT8/Pdt9v/Qmw0q1mAKJRA/J9OzsA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
