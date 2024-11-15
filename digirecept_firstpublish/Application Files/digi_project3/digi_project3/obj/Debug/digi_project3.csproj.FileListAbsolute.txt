@@ -1,0 +1,16 @@
+C:\projekty\digi_project3\digi_project3\bin\Debug\Database1.mdf
+C:\projekty\digi_project3\digi_project3\bin\Debug\Database1_log.ldf
+C:\projekty\digi_project3\digi_project3\bin\Debug\digi_project3.exe.config
+C:\projekty\digi_project3\digi_project3\bin\Debug\digi_project3.exe
+C:\projekty\digi_project3\digi_project3\bin\Debug\digi_project3.pdb
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.csproj.AssemblyReference.cache
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.Properties.Resources.resources
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.csproj.GenerateResource.cache
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.csproj.CoreCompileInputs.cache
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.exe
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.pdb
+C:\projekty\digi_project3\digi_project3\bin\Debug\digi_project3.exe.manifest
+C:\projekty\digi_project3\digi_project3\bin\Debug\digi_project3.application
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.exe.manifest
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.application
+C:\projekty\digi_project3\digi_project3\obj\Debug\digi_project3.mainscreen.resources
